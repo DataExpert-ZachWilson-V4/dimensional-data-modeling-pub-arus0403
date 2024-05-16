@@ -50,7 +50,11 @@ SELECT
   COALESCE(ty.year, ly.current_year + 1) AS current_year
 FROM
   last_year ly
+<<<<<<< HEAD
   FULL OUTER JOIN this_year ty ON ly.actor_id = ty.actor_id;
+=======
+  FULL OUTER JOIN this_year ty ON ly.actor_id = ty.actor_id
+>>>>>>> 8205e8df960ae76ace565a80e5c3d6c4d60af2c9
   
 INSERT INTO
   RaviT.actors
@@ -103,7 +107,11 @@ SELECT
   COALESCE(ty.year, ly.current_year + 1) AS current_year
 FROM
   last_year ly
+<<<<<<< HEAD
   FULL OUTER JOIN this_year ty ON ly.actor_id = ty.actor_id;
+=======
+  FULL OUTER JOIN this_year ty ON ly.actor_id = ty.actor_id
+>>>>>>> 8205e8df960ae76ace565a80e5c3d6c4d60af2c9
 
 INSERT INTO
   RaviT.actors
@@ -156,7 +164,11 @@ SELECT
   COALESCE(ty.year, ly.current_year + 1) AS current_year
 FROM
   last_year ly
+<<<<<<< HEAD
   FULL OUTER JOIN this_year ty ON ly.actor_id = ty.actor_id;
+=======
+  FULL OUTER JOIN this_year ty ON ly.actor_id = ty.actor_id
+>>>>>>> 8205e8df960ae76ace565a80e5c3d6c4d60af2c9
 
 INSERT INTO
   RaviT.actors
@@ -209,7 +221,11 @@ SELECT
   COALESCE(ty.year, ly.current_year + 1) AS current_year
 FROM
   last_year ly
+<<<<<<< HEAD
   FULL OUTER JOIN this_year ty ON ly.actor_id = ty.actor_id;  
+=======
+  FULL OUTER JOIN this_year ty ON ly.actor_id = ty.actor_id  
+>>>>>>> 8205e8df960ae76ace565a80e5c3d6c4d60af2c9
   
  
   
